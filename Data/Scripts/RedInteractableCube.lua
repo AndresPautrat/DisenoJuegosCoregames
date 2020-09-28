@@ -1,8 +1,7 @@
 ﻿function OnInteracted(theTrigger, player)
-    print("INTERACTED!")
-    trigger.isInteractable = false
-    Task.Wait(4)
-    trigger.isInteractable = true
-end
-
+	local boxes = player:GetResource("xp")
+    print(boxes)
+    player:SetResource("xp", boxes+1)
+    script.parent.parent:Destroy()
+    end
 script.parent.interactedEvent:Connect(OnInteracted)

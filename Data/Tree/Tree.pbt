@@ -20,12 +20,12 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 10767267501425069289
+  ChildIds: 116716720923566644
   ChildIds: 15814811373622705007
-  ChildIds: 12788442278589133646
   ChildIds: 16401380512848343075
   ChildIds: 2592038151342716025
   ChildIds: 3354335896736541307
-  ChildIds: 4520367543081768499
+  ChildIds: 7716998804265490152
   ChildIds: 16407922986334493591
   ChildIds: 13310111348793451191
   ChildIds: 11372907608346664142
@@ -2659,16 +2659,9 @@ Objects {
   }
 }
 Objects {
-  Id: 4520367543081768499
-  Name: "CubeRed"
+  Id: 7716998804265490152
+  Name: "CubeRedPick"
   Transform {
-    Location {
-      X: 727.340332
-      Y: 931.827087
-      Z: 2.28881836e-05
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -2676,141 +2669,27 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 10181908340611628
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 4520367543081768499
-    SubobjectId: 6318732276851287966
-    InstanceId: 9447480739177904083
-    TemplateId: 2340447669508800178
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 10181908340611628
-  Name: "Cube Red"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4520367543081768499
-  ChildIds: 8830960056207439239
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        R: 0.97
-        G: 0.154172227
-        A: 1
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9911664420446350798
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CubeRedPick"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 727.340332
+            Y: 931.827087
+            Z: 2.28881836e-05
+          }
+        }
       }
     }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12116774035319113540
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10181908340611628
-    SubobjectId: 7579307174017051521
-    InstanceId: 9447480739177904083
-    TemplateId: 2340447669508800178
-  }
-}
-Objects {
-  Id: 8830960056207439239
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -727.340332
-      Y: -931.827087
-      Z: -2.28881836e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10181908340611628
-  ChildIds: 14213782469711099350
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 14213782469711099350
-  Name: "RedInteractableCube"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8830960056207439239
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15624552399453119702
+    TemplateAsset {
+      Id: 15647932691844393433
     }
   }
 }
@@ -2940,20 +2819,14 @@ Objects {
   ParentId: 18353592264710033090
   UnregisteredParameters {
     Overrides {
-      Name: "cs:CubeRed"
-      AssetReference {
-        Id: 2340447669508800178
-      }
-    }
-    Overrides {
-      Name: "cs:CubeGreen"
-      AssetReference {
-        Id: 10182442069278952831
-      }
-    }
-    Overrides {
       Name: "cs:CubeColor"
       String: "CubeRed"
+    }
+    Overrides {
+      Name: "cs:CubeRed"
+      AssetReference {
+        Id: 15647932691844393433
+      }
     }
   }
   WantsNetworking: true
@@ -3344,86 +3217,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12788442278589133646
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 7267563562420072202
-  ChildIds: 14420003856605491409
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 14420003856605491409
-  Name: "AllPlayers"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12788442278589133646
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4959069224464145263
-    }
-  }
-}
-Objects {
-  Id: 7267563562420072202
-  Name: "Player"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12788442278589133646
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15708993991122411656
-    }
-  }
-}
-Objects {
   Id: 15814811373622705007
   Name: "Group"
   Transform {
@@ -3598,6 +3391,34 @@ Objects {
   }
 }
 Objects {
+  Id: 116716720923566644
+  Name: "Player"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15708993991122411656
+    }
+  }
+}
+Objects {
   Id: 10767267501425069289
   Name: "Group"
   Transform {
@@ -3646,7 +3467,6 @@ Objects {
   }
   ParentId: 10767267501425069289
   ChildIds: 16028366176846867353
-  ChildIds: 16935155831019454382
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3691,34 +3511,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16935155831019454382
-  Name: "GreenInteractableCube"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4030132265318866526
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15624552399453119702
-    }
-  }
-}
-Objects {
   Id: 16028366176846867353
   Name: "Trigger"
   Transform {
@@ -3733,6 +3525,7 @@ Objects {
     }
   }
   ParentId: 4030132265318866526
+  ChildIds: 16935155831019454382
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3748,6 +3541,34 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 16935155831019454382
+  Name: "GreenInteractableCube"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16028366176846867353
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15624552399453119702
     }
   }
 }
@@ -4396,6 +4217,10 @@ Objects {
   }
   ParentId: 5105199927848774566
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:Cubes"
+      Int: 0
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

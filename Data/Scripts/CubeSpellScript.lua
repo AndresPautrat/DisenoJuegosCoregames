@@ -33,6 +33,7 @@ function OnExecute_CubeSpell(ability)
 	local wallPosition = targetData:GetHitPosition()
 	local playerDirection = targetData:GetAimDirection()
 	local conjuredWall = World.SpawnAsset(propCube, {position = wallPosition})
+	print(player.GetResouse("xp"))
 end
 
 function OnRecovery_CubeSpell(ability)
