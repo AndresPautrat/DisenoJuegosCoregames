@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13586310895817580857
+  Name: "Wallpaper Hearts 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wallpaper_hearts_001_uv"
+  }
+}
+Assets {
   Id: 12116774035319113540
   Name: "Reinforced Crate 150cm"
   PlatformAssetType: 1
@@ -80,12 +89,39 @@ Assets {
   }
 }
 Assets {
+  Id: 10888788159873929006
+  Name: "Craftsman Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
+  }
+}
+Assets {
   Id: 9802724784644488365
   Name: "Asphalt 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
+  Id: 9662723091772095612
+  Name: "Fantasy Castle Door 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_door_001"
+  }
+}
+Assets {
+  Id: 9122789709490702857
+  Name: "Road Sidewalk Corner - In"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_road_sidewalk-corner-in_001"
   }
 }
 Assets {
@@ -152,6 +188,24 @@ Assets {
   }
 }
 Assets {
+  Id: 6019899755828464859
+  Name: "Metal Steel Triangle 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_steel_tri_002"
+  }
+}
+Assets {
+  Id: 5044849000068854622
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
   Id: 4520837179017444747
   Name: "Cabinet Door"
   PlatformAssetType: 1
@@ -167,6 +221,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_floor_002_4m_corner_002"
+  }
+}
+Assets {
+  Id: 2904198472893284400
+  Name: "Roof Asphalt 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_roof_asphalt_002_uv"
   }
 }
 Assets {
@@ -203,5 +266,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_ceiling_001_vault_01"
+  }
+}
+Assets {
+  Id: 592379475362698005
+  Name: "Plasma"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_plasmafield"
   }
 }
