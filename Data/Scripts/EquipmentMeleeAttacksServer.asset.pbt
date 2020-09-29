@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 18292077748248495418
-  Name: "PortcullisServer"
+  Id: 5082628058110625875
+  Name: "EquipmentMeleeAttacksServer"
   PlatformAssetType: 3
   TextAsset {
   }

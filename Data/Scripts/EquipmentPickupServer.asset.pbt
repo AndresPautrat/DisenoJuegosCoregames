@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 18292077748248495418
-  Name: "PortcullisServer"
+  Id: 8459825612529451237
+  Name: "EquipmentPickupServer"
   PlatformAssetType: 3
   TextAsset {
   }

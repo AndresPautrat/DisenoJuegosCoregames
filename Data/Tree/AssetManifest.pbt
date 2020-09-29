@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 17503520005335241238
+  Name: "Craftsman Part - Wall 01 Doorway"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_wall_001_doorway"
+  }
+}
+Assets {
   Id: 16956732760613111471
   Name: "Fantasy Castle Bannister 01 - Straight"
   PlatformAssetType: 1
@@ -77,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
+  Id: 8825682593682931304
+  Name: "Rock Block 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_006"
   }
 }
 Assets {

@@ -125,5 +125,5 @@
       AssetId: "Fantasy_Castle_Stairs_Spiral_02_with_Railing_-_Large_3m"
     }
   }
-  SerializationVersion: 63
+  SerializationVersion: 65
 }

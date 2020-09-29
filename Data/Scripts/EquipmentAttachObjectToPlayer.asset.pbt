@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 18292077748248495418
-  Name: "PortcullisServer"
+  Id: 12439034694186114331
+  Name: "EquipmentAttachObjectToPlayer"
   PlatformAssetType: 3
   TextAsset {
   }

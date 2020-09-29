@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 18292077748248495418
-  Name: "PortcullisServer"
+  Id: 1427829216143793458
+  Name: "EquipmentStanceServer"
   PlatformAssetType: 3
   TextAsset {
   }

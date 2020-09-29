@@ -1,13 +1,13 @@
 ﻿Assets {
-  Id: 1403770379300152401
-  Name: "SwitchGreen"
+  Id: 307406115803496087
+  Name: "Generic Impact Player Effect"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 6890641418718444653
+      RootId: 11352976760511440785
       Objects {
-        Id: 6890641418718444653
-        Name: "Trigger"
+        Id: 11352976760511440785
+        Name: "Generic Impact Player Effect"
         Transform {
           Scale {
             X: 1
@@ -15,9 +15,11 @@
             Z: 1
           }
         }
-        ParentId: 15814811373622705007
-        ChildIds: 1721026657770782108
-        ChildIds: 15954280425573661249
+        ParentId: 4781671109827199097
+        ChildIds: 12801116442223059089
+        ChildIds: 15368370472108963347
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -25,19 +27,12 @@
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
-          }
+        NetworkContext {
         }
       }
       Objects {
-        Id: 1721026657770782108
-        Name: "Callout Sparkle"
+        Id: 12801116442223059089
+        Name: "Generic Player Impact VFX"
         Transform {
           Location {
           }
@@ -49,18 +44,16 @@
             Z: 1
           }
         }
-        ParentId: 6890641418718444653
+        ParentId: 11352976760511440785
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
             Color {
-              G: 0.580000043
-              B: 0.0384106711
+              R: 0.950000048
               A: 1
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -69,9 +62,7 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 14992844599291924754
-          }
-          TeamSettings {
+            Id: 7628097165165581423
           }
           Vfx {
             AutoPlay: true
@@ -79,8 +70,8 @@
         }
       }
       Objects {
-        Id: 15954280425573661249
-        Name: "GreenScript"
+        Id: 15368370472108963347
+        Name: "Bullet Body Impact SFX"
         Transform {
           Location {
           }
@@ -92,28 +83,44 @@
             Z: 1
           }
         }
-        ParentId: 6890641418718444653
-        WantsNetworking: true
+        ParentId: 11352976760511440785
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Script {
-          ScriptAsset {
-            Id: 10859527877759229332
+        AudioInstance {
+          AudioAsset {
+            Id: 7866413056776856701
           }
+          AutoPlay: true
+          Volume: 1
+          Falloff: 3600
+          Radius: 400
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
     }
     Assets {
-      Id: 14992844599291924754
-      Name: "Callout Sparkle"
+      Id: 7628097165165581423
+      Name: "Generic Player Impact VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_sparkles_volume_vfx"
+        AssetId: "fxbp_player_impact"
+      }
+    }
+    Assets {
+      Id: 7866413056776856701
+      Name: "Bullet Body Impact SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_bullet_impact_body"
       }
     }
     PrimaryAssetId {
