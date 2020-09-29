@@ -25,16 +25,19 @@ function OnExecute_CubeSpell(ability)
 	print("OnExecute " .. ability.name)
 	
 	-- if isTargetDataUpdated is set to true on ability phase, targetData can be used
-	local targetData = ability:GetTargetData()
-	
-	local conjuredWall = World.SpawnAsset(propCube)
-	
-	local targetData = ability:GetTargetData()
-	local wallPosition = targetData:GetHitPosition()
-	local playerDirection = targetData:GetAimDirection()
-	local conjuredWall = World.SpawnAsset(propCube, {position = wallPosition})
-	print(player.GetResouse("xp"))
-end
+		
+	local player = Game.GetPlayers()[1]
+	local boxes = player:GetResource("xp")
+	if boxes>0 then
+		local targetData = ability:GetTargetData()
+		local wallPosition = targetData:GetHitPosition()
+		local playerDirection = targetData:GetAimDirection()
+		local conjuredWall = World.SpawnAsset(propCube, {position = wallPosition})
+		player:SetResource("xp",boxes-1)
+		end
+		
+	print(boxes)
+	end
 
 function OnRecovery_CubeSpell(ability)
 	-- print("OnRecovery " .. ability.name)

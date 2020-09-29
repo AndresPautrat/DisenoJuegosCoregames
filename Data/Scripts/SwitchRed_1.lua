@@ -4,7 +4,7 @@ local origin = Vector3.New(0, 0, 0)
 local help=true
 
 function OnBeginOverlap(trigger,object)
-	local all = World.FindObjectsByName("Cube Red")
+	local all = World.FindObjectsByName("Cube Green")
 	if object:IsA("Player") then
 		for _, i in pairs(all) do	
 			--if help then

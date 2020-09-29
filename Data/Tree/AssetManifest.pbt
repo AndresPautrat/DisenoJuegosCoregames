@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12116774035319113540
+  Name: "Reinforced Crate 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_crate_reinforced_150cm_001"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -80,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7320670082989090136
+  Name: "Terrain Grid Glow"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_terrain_grid+emissive-paint_001"
+  }
+}
+Assets {
   Id: 7168707400961082848
   Name: "Bone Human Skull Pile 01"
   PlatformAssetType: 1
@@ -89,12 +107,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7127197454231958861
+  Name: "Crosshair 021"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Crosshair_021"
+  }
+}
+Assets {
   Id: 6737008920894034244
   Name: "Bone Human Skull Pile 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_skull_pile_02_ref"
+  }
+}
+Assets {
+  Id: 6050753979123331717
+  Name: "Barrel"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_icon_Barrel"
   }
 }
 Assets {
@@ -122,15 +158,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_floor_001_8m"
-  }
-}
-Assets {
-  Id: 2380135218089047698
-  Name: "Door, Rounded Top"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_door_rounded_2m_001"
   }
 }
 Assets {
