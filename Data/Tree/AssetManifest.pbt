@@ -8,6 +8,24 @@
   }
 }
 Assets {
+  Id: 17112565587862217109
+  Name: "Bench Tile Center"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bench_center_001"
+  }
+}
+Assets {
+  Id: 17016507971320174825
+  Name: "Fabric Space Insulation 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_insulation_panels_002_uv"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -23,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_sparkles_volume_vfx"
+  }
+}
+Assets {
+  Id: 13848425380777836183
+  Name: "Bench Tile Right"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bench_right_001"
   }
 }
 Assets {
@@ -95,6 +122,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_door_001"
+  }
+}
+Assets {
+  Id: 9627098919781900776
+  Name: "Ice Opaque Ground"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_ice_opaque_ground"
   }
 }
 Assets {
@@ -203,5 +239,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bottle_002"
+  }
+}
+Assets {
+  Id: 242869488997416717
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
