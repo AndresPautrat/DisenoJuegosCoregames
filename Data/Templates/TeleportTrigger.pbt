@@ -1,59 +1,23 @@
 ﻿Assets {
-  Id: 18210475256093657782
-  Name: "Teleport"
+  Id: 4893785238878061937
+  Name: "TeleportTrigger"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 2042919025486510529
+      RootId: 7626682840128343206
       Objects {
-        Id: 2042919025486510529
-        Name: "Teleport"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4781671109827199097
-        ChildIds: 18295251353229977786
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6772207708532355158
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18295251353229977786
+        Id: 7626682840128343206
         Name: "TeleportTrigger"
         Transform {
-          Rotation {
-            Yaw: -6.83018834e-06
-          }
           Scale {
             X: 1
             Y: 2.67439294
             Z: 7.83237791
           }
         }
-        ParentId: 2042919025486510529
-        ChildIds: 5142962406454032856
-        ChildIds: 16255248911765764798
+        ParentId: 9351250275428492931
+        ChildIds: 11111362665287698388
+        ChildIds: 17717751561820442876
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -71,7 +35,7 @@
         }
       }
       Objects {
-        Id: 5142962406454032856
+        Id: 11111362665287698388
         Name: "Callout Sparkle"
         Transform {
           Location {
@@ -84,7 +48,7 @@
             Z: 1.01986873
           }
         }
-        ParentId: 18295251353229977786
+        ParentId: 7626682840128343206
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -105,7 +69,7 @@
         }
       }
       Objects {
-        Id: 16255248911765764798
+        Id: 17717751561820442876
         Name: "DoorTP"
         Transform {
           Location {
@@ -118,7 +82,7 @@
             Z: 0.122125469
           }
         }
-        ParentId: 18295251353229977786
+        ParentId: 7626682840128343206
         UnregisteredParameters {
           Overrides {
             Name: "cs:NewPosition"
@@ -141,15 +105,6 @@
             Id: 14547706863667792540
           }
         }
-      }
-    }
-    Assets {
-      Id: 6772207708532355158
-      Name: "Stone Arch (doorway) 001"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_stone_doorway_001"
       }
     }
     Assets {

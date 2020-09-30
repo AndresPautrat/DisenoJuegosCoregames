@@ -27,8 +27,7 @@ Objects {
   ChildIds: 2741597173551117074
   ChildIds: 7752600499057768584
   ChildIds: 8049660663621204665
-  ChildIds: 17116831040870819620
-  ChildIds: 11468138139938536451
+  ChildIds: 18405205876663786733
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,78 +40,51 @@ Objects {
   }
 }
 Objects {
-  Id: 11468138139938536451
-  Name: "Bench Tile Right"
+  Id: 18405205876663786733
+  Name: "Teleport"
   Transform {
-    Location {
-      X: -31150
-      Y: 29550
-    }
-    Rotation {
-    }
     Scale {
       X: 1
-      Y: 31.5000153
-      Z: 45.25
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13848425380777836183
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17116831040870819620
-  Name: "Bench Tile Center"
-  Transform {
-    Location {
-      X: -19650
-      Y: 18500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 13.2499943
       Y: 1
-      Z: 46.5
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17112565587862217109
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2042919025486510529
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TeleportFinal3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -30924.002
+            Y: 29751.0352
+            Z: 8.44439316
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999619
+          }
+        }
       }
+    }
+    ParameterOverrideMap {
+      key: 16255248911765764798
+      value {
+        Overrides {
+          Name: "cs:NextLevel"
+          String: "Spawn Point"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18210475256093657782
     }
   }
 }
@@ -134,6 +106,7 @@ Objects {
   ChildIds: 456437339911085656
   ChildIds: 3476385428433169499
   ChildIds: 17714750662979916512
+  ChildIds: 9988357599462573403
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -142,6 +115,84 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9988357599462573403
+  Name: "SpawnLevel3"
+  Transform {
+    Location {
+      X: -17723.25
+      Y: 18434.5273
+      Z: 8.44445801
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8049660663621204665
+  ChildIds: 7904212080509036602
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6772207708532355158
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7904212080509036602
+  Name: "Callout Sparkle"
+  Transform {
+    Location {
+      X: -3.05273628
+      Y: 4.85156059
+      Z: 218.493774
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 2.67439294
+      Z: 4.3166275
+    }
+  }
+  ParentId: 9988357599462573403
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14992844599291924754
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
   }
 }
 Objects {
@@ -4504,7 +4555,7 @@ Objects {
   ChildIds: 11901127666108193658
   ChildIds: 10657284091822062635
   ChildIds: 13701372696987007142
-  ChildIds: 5575781891398924221
+  ChildIds: 9351250275428492931
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4516,13 +4567,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5575781891398924221
-  Name: "Teleport"
+  Id: 9351250275428492931
+  Name: "TeleportLvl2"
   Transform {
     Location {
-      X: 2967.43
-      Y: 6640.8916
-      Z: 304.492432
+      X: -20855.3359
+      Y: 248.188538
+      Z: -14.0561523
     }
     Rotation {
     }
@@ -4533,31 +4584,51 @@ Objects {
     }
   }
   ParentId: 7752600499057768584
+  ChildIds: 2122629534983069931
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6772207708532355158
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 2122629534983069931
+  Name: "TeleportTrigger"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9351250275428492931
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2604531020138106517
+      key: 7626682840128343206
       value {
         Overrides {
           Name: "Name"
-          String: "TeleportLvl2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -20855.3359
-            Y: 248.188538
-            Z: -14.0561523
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
+          String: "TeleportTrigger"
         }
       }
     }
     TemplateAsset {
-      Id: 6243461002644229841
+      Id: 4893785238878061937
     }
   }
 }
@@ -4600,13 +4671,6 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 13701372696987007142
-    SubobjectId: 2604531020138106517
-    InstanceId: 3383388815317019382
-    TemplateId: 6243461002644229841
-    WasRoot: true
-  }
 }
 Objects {
   Id: 6415848867345503687
@@ -4643,12 +4707,6 @@ Objects {
     Vfx {
       AutoPlay: true
     }
-  }
-  InstanceHistory {
-    SelfId: 6415848867345503687
-    SubobjectId: 14053911976909513716
-    InstanceId: 3383388815317019382
-    TemplateId: 6243461002644229841
   }
 }
 Objects {
@@ -12099,12 +12157,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 6883478416604706040
-    SubobjectId: 5034486480938624878
-    InstanceId: 9372223466198602209
-    TemplateId: 6243461002644229841
-  }
 }
 Objects {
   Id: 4812360181488148325
@@ -12129,7 +12181,7 @@ Objects {
     }
     Overrides {
       Name: "cs:NextLevel"
-      String: "SpawnLevel2"
+      String: "SpawnLevel3"
     }
   }
   Collidable_v2 {
@@ -12142,12 +12194,6 @@ Objects {
     ScriptAsset {
       Id: 14547706863667792540
     }
-  }
-  InstanceHistory {
-    SelfId: 4812360181488148325
-    SubobjectId: 6382130598181670131
-    InstanceId: 9372223466198602209
-    TemplateId: 6243461002644229841
   }
 }
 Objects {
@@ -12182,12 +12228,6 @@ Objects {
     Vfx {
       AutoPlay: true
     }
-  }
-  InstanceHistory {
-    SelfId: 15659182596114116706
-    SubobjectId: 14053911976909513716
-    InstanceId: 9372223466198602209
-    TemplateId: 6243461002644229841
   }
 }
 Objects {
@@ -13136,7 +13176,7 @@ Objects {
   ChildIds: 3354335896736541307
   ChildIds: 5772496708846731558
   ChildIds: 12290365861445035503
-  ChildIds: 7231288247809268577
+  ChildIds: 794318298447346892
   ChildIds: 2909907253752563155
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -13444,9 +13484,16 @@ Objects {
   }
 }
 Objects {
-  Id: 7231288247809268577
-  Name: "Teleport"
+  Id: 794318298447346892
+  Name: "TeleportLvl2"
   Transform {
+    Location {
+      X: 5027.09375
+      Y: 3946.10107
+      Z: 845.933105
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -13454,31 +13501,131 @@ Objects {
     }
   }
   ParentId: 2741597173551117074
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2604531020138106517
-      value {
-        Overrides {
-          Name: "Name"
-          String: "TeleportLvl2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5027.09375
-            Y: 3946.10107
-            Z: 845.933105
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
+  ChildIds: 5973300207060751858
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6772207708532355158
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
       }
     }
-    TemplateAsset {
-      Id: 6243461002644229841
+  }
+}
+Objects {
+  Id: 5973300207060751858
+  Name: "TeleportTrigger"
+  Transform {
+    Location {
+      X: -3.05371094
+      Y: 4.8515625
+      Z: 218.493774
+    }
+    Scale {
+      X: 1
+      Y: 2.67439294
+      Z: 4.2325325
+    }
+  }
+  ParentId: 794318298447346892
+  ChildIds: 397345449142739897
+  ChildIds: 14677563386870372049
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 14677563386870372049
+  Name: "DoorTP"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.373916626
+      Z: 0.122125469
+    }
+  }
+  ParentId: 5973300207060751858
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:NewPosition"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "cs:NextLevel"
+      String: "SpawnLevel2"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14547706863667792540
+    }
+  }
+}
+Objects {
+  Id: 397345449142739897
+  Name: "Callout Sparkle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.01986873
+    }
+  }
+  ParentId: 5973300207060751858
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 14992844599291924754
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
     }
   }
 }
@@ -16034,9 +16181,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -6579.43311
-      Y: 7728.38623
-      Z: 115
+      X: -6283.39209
+      Y: 7594.92236
+      Z: 281.979156
     }
     Rotation {
     }

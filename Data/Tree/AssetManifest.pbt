@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 17112565587862217109
-  Name: "Bench Tile Center"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bench_center_001"
-  }
-}
-Assets {
   Id: 17016507971320174825
   Name: "Fabric Space Insulation 02"
   PlatformAssetType: 2
@@ -41,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_sparkles_volume_vfx"
-  }
-}
-Assets {
-  Id: 13848425380777836183
-  Name: "Bench Tile Right"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bench_right_001"
   }
 }
 Assets {
