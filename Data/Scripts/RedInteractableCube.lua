@@ -16,4 +16,4 @@ function OnTriggerExit(trigger, object)
 	end
 end
 script.parent.interactedEvent:Connect(OnInteracted)
-script.parent.beginOverlapEvent:Connect(OnTriggerExit)
+--script.parent.beginOverlapEvent:Connect(OnTriggerExit)

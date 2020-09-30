@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 16956732760613111471
-  Name: "Fantasy Castle Bannister 01 - Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_bannister_001_straight"
-  }
-}
-Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -32,15 +23,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_sparkles_volume_vfx"
-  }
-}
-Assets {
-  Id: 13868889675930197036
-  Name: "Fantasy Castle Floor 02 - Corner 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_floor_002_4m_corner_001"
   }
 }
 Assets {
@@ -152,15 +134,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7168707400961082848
-  Name: "Bone Human Skull Pile 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_skull_pile_01_ref"
-  }
-}
-Assets {
   Id: 7127197454231958861
   Name: "Crosshair 021"
   PlatformAssetType: 9
@@ -170,12 +143,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6737008920894034244
-  Name: "Bone Human Skull Pile 02"
+  Id: 6772207708532355158
+  Name: "Stone Arch (doorway) 001"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_skull_pile_02_ref"
+    AssetId: "sm_stone_doorway_001"
   }
 }
 Assets {
@@ -206,24 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4520837179017444747
-  Name: "Cabinet Door"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_door_001"
-  }
-}
-Assets {
-  Id: 3319641767300199878
-  Name: "Fantasy Castle Floor 02 - Corner 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_floor_002_4m_corner_002"
-  }
-}
-Assets {
   Id: 2904198472893284400
   Name: "Roof Asphalt 02"
   PlatformAssetType: 2
@@ -242,38 +197,11 @@ Assets {
   }
 }
 Assets {
-  Id: 2099349245666186596
-  Name: "Fantasy Castle Stairs 01 - L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_stairs_001_L_ref"
-  }
-}
-Assets {
   Id: 1372956785475748626
   Name: "Bottle 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bottle_002"
-  }
-}
-Assets {
-  Id: 1136345011223399418
-  Name: "Fantasy Castle Ceiling 01 - Vault"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_ceiling_001_vault_01"
-  }
-}
-Assets {
-  Id: 592379475362698005
-  Name: "Plasma"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_plasmafield"
   }
 }

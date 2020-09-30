@@ -1,7 +1,13 @@
-﻿function OnBeginOverlap(trigger,object)
-	--object:SetWorldPosition(Vector3.New(1, 2, 3))
-	object:SetWorldPosition(object:GetWorldPosition() + Vector3.UP * 1000)
-	print(object:GetViewWorldRotation())
+﻿local propNewPosition = script:GetCustomProperty("NewPosition")
+function OnBeginOverlap(trigger,object)
+	
+	--object:SetWorldPosition(object:GetWorldPosition() + Vector3.UP * 1000)
+	local all = World.FindObjectsByName("SpawnLevel2")
+	print(all[1]:GetWorldPosition())
+	object:SetWorldPosition(all[1]:GetWorldPosition())
+	for _, equipment in ipairs(object:GetEquipment()) do
+        equipment:Destroy()
+    end
 end
 
 function OnEndOverlap(trigger,object)
