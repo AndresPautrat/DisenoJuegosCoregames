@@ -170,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6906925713850818417
+  Name: "Ceramic Terracotta Pots 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_001_uv"
+  }
+}
+Assets {
   Id: 6772207708532355158
   Name: "Stone Arch (doorway) 001"
   PlatformAssetType: 1
@@ -206,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3346502196465888129
+  Name: "Bricks Red 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_red_001"
+  }
+}
+Assets {
   Id: 2904198472893284400
   Name: "Roof Asphalt 02"
   PlatformAssetType: 2
@@ -230,6 +248,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bottle_002"
+  }
+}
+Assets {
+  Id: 1173904084905321008
+  Name: "Craftsman Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002"
   }
 }
 Assets {
