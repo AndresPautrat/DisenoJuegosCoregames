@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10811963481791107792
+  Name: "Fantasy Hammer Base 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_base_hammer_001"
+  }
+}
+Assets {
   Id: 9802724784644488365
   Name: "Asphalt 01"
   PlatformAssetType: 2
@@ -134,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8513700555094308874
+  Name: "Fantasy Hammer Head 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_head_hammer_001"
+  }
+}
+Assets {
   Id: 8392183034310735024
   Name: "Hammer"
   PlatformAssetType: 9
@@ -167,15 +185,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Crosshair_021"
-  }
-}
-Assets {
-  Id: 6906925713850818417
-  Name: "Ceramic Terracotta Pots 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_terracotta_pots_001_uv"
   }
 }
 Assets {
@@ -224,15 +233,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3346502196465888129
-  Name: "Bricks Red 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_red_001"
-  }
-}
-Assets {
   Id: 2904198472893284400
   Name: "Roof Asphalt 02"
   PlatformAssetType: 2
@@ -251,6 +251,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1863549408108808768
+  Name: "Fantasy Hammer Guard 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_guard_hammer_001"
+  }
+}
+Assets {
   Id: 1372956785475748626
   Name: "Bottle 02"
   PlatformAssetType: 1
@@ -260,12 +269,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1173904084905321008
-  Name: "Craftsman Wall 02"
+  Id: 820217430221713418
+  Name: "Fantasy Axe Grip 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_002"
+    AssetId: "sm_weap_fan_grip_axe_001"
   }
 }
 Assets {
@@ -275,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_plasmafield_doublesided"
+  }
+}
+Assets {
+  Id: 273448105943087596
+  Name: "Fantasy Mace Guard 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_guard_mace_001"
   }
 }
 Assets {

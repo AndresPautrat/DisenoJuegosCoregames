@@ -55,8 +55,7 @@ function OnInterrupted_CubeSpell(ability)
 	--print("OnInterrupted " .. ability.name)
 end
 
-function OnReady_CubeSpell(ability)
-	-- print("OnReady " .. ability.name)
+function OnReady_CubeSpell(ability)	-- print("OnReady " .. ability.name)
 end
 
 --[[
