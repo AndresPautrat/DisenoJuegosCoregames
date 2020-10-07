@@ -5,7 +5,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8368.75
       Z: 50
     }
@@ -107,7 +107,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8368.75
       Z: 350
     }
@@ -209,7 +209,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8368.75
       Z: 650
     }
@@ -311,7 +311,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8668.75
       Z: 50
     }
@@ -413,7 +413,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8668.75
       Z: 350
     }
@@ -515,7 +515,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8668.75
       Z: 650
     }
@@ -617,7 +617,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8968.75
       Z: 50
     }
@@ -719,7 +719,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8968.75
       Z: 350
     }
@@ -821,7 +821,7 @@ Objects {
   Name: "Rock Block 01"
   Transform {
     Location {
-      X: 6255.46875
+      X: 6405.46875
       Y: -8968.75
       Z: 650
     }

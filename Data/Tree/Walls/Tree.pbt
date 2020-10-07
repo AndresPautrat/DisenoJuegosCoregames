@@ -1,18 +1,218 @@
 ﻿Name: "Walls"
 RootId: 4779921729646759189
 Objects {
+  Id: 12921482590058115859
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: 3200.33594
+      Y: -2949.41797
+      Z: 4250
+    }
+    Rotation {
+      Pitch: 0.000553245307
+      Yaw: -179.999802
+      Roll: -89.9996338
+    }
+    Scale {
+      X: 2
+      Y: 1
+      Z: 3
+    }
+  }
+  ParentId: 4779921729646759189
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 6157816907860683007
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12035993215323580033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15894844321007437802
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: 1650.33594
+      Y: -2949.41797
+      Z: 3750
+    }
+    Rotation {
+      Pitch: 0.000553245307
+      Yaw: -179.999802
+      Roll: -89.9996338
+    }
+    Scale {
+      X: 2
+      Y: 1
+      Z: 3
+    }
+  }
+  ParentId: 4779921729646759189
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 6157816907860683007
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12035993215323580033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10555271074865081055
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: 400.335938
+      Y: -49.4179688
+      Z: 3750
+    }
+    Rotation {
+      Pitch: 0.000553245307
+      Yaw: -179.999802
+      Roll: -89.9996338
+    }
+    Scale {
+      X: 2
+      Y: 1
+      Z: 3
+    }
+  }
+  ParentId: 4779921729646759189
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 6157816907860683007
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12035993215323580033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5726644663032663377
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: -1849.66406
+      Y: 1100.58203
+      Z: 3200
+    }
+    Rotation {
+      Pitch: 0.000553245307
+      Yaw: -179.999802
+      Roll: -89.9996338
+    }
+    Scale {
+      X: 2
+      Y: 1
+      Z: 3
+    }
+  }
+  ParentId: 4779921729646759189
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 6157816907860683007
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12035993215323580033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 7174898869433344134
   Name: "Craftsman Part - Wall 01"
   Transform {
     Location {
       X: 5231.25
-      Y: -850
+      Y: 150.582031
       Z: 3300
     }
     Rotation {
       Pitch: 0.000553245307
       Yaw: -179.999802
-      Roll: -89.9996414
+      Roll: -89.9996338
     }
     Scale {
       X: 2

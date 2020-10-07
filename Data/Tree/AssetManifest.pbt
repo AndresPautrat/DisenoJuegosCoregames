@@ -1,10 +1,28 @@
 ﻿Assets {
+  Id: 17713559165996441779
+  Name: "Candle 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_candle_002"
+  }
+}
+Assets {
   Id: 17503520005335241238
   Name: "Craftsman Part - Wall 01 Doorway"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_wall_001_doorway"
+  }
+}
+Assets {
+  Id: 17418469366437042316
+  Name: "Cabinet Topper"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_topper_001"
   }
 }
 Assets {
@@ -32,6 +50,24 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_sparkles_volume_vfx"
+  }
+}
+Assets {
+  Id: 14446054074420411036
+  Name: "Cabinet - Upper Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_corner_001"
+  }
+}
+Assets {
+  Id: 13982583142924090407
+  Name: "Arch Fancy Peaked 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_fancy_ogive_6m_001"
   }
 }
 Assets {
@@ -77,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 11350851788181136683
+  Name: "Chandelier"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chandelier_001"
   }
 }
 Assets {
@@ -197,6 +242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6737008920894034244
+  Name: "Bone Human Skull Pile 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_pile_02_ref"
+  }
+}
+Assets {
   Id: 6157816907860683007
   Name: "Bricks Wall Flat 01"
   PlatformAssetType: 2
@@ -251,6 +305,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1981731895831289797
+  Name: "Cabinet - Upper"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_001"
+  }
+}
+Assets {
   Id: 1863549408108808768
   Name: "Fantasy Hammer Guard 01"
   PlatformAssetType: 1
@@ -302,5 +365,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_emissive_001"
+  }
+}
+Assets {
+  Id: 57078856199095434
+  Name: "Cauldron"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_cauldron_001"
   }
 }
