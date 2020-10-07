@@ -188,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6157816907860683007
+  Name: "Bricks Wall Flat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_wall_flat_001"
+  }
+}
+Assets {
   Id: 6019899755828464859
   Name: "Metal Steel Triangle 02"
   PlatformAssetType: 2
@@ -257,6 +266,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_wall_002"
+  }
+}
+Assets {
+  Id: 762221200897022774
+  Name: "Plasmafield Doublesided"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_plasmafield_doublesided"
   }
 }
 Assets {
