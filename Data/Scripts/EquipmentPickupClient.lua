@@ -44,6 +44,8 @@ function OnEquipped(equipment, player)
             pickupSound.lifeSpan = DEFAULT_LIFESPAN
         end
     end
+    local all = World.FindObjectsByName("UI")
+	print(all[0])
 end
 
 -- Initialize

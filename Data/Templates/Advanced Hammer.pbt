@@ -113,16 +113,17 @@
       }
       Objects {
         Id: 5847620684773188513
-        Name: "Hitbox Trigger"
+        Name: "HammerTrigger"
         Transform {
           Location {
+            Z: 6.65148926
           }
           Rotation {
           }
           Scale {
-            X: 3
-            Y: 3
-            Z: 3
+            X: 1
+            Y: 2
+            Z: 1
           }
         }
         ParentId: 3463194666526297834

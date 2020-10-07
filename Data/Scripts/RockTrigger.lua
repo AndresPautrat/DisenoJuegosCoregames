@@ -3,8 +3,12 @@
 	print(AbilityPhase.EXECUTE)
 	if object.name == "HammerTrigger" then 
 		if Game.GetPlayers()[1]:GetAbilities()[1]:GetCurrentPhase()==1 then
-			print(object.parent)
-			script.parent.parent:Destroy()
+			print(Game.GetPlayers()[1]:GetAbilities()[1]:GetCurrentPhase())
+			script.parent.parent:Destroy()	
+		end		
+		if Game.GetPlayers()[1]:GetAbilities()[1]:GetCurrentPhase()==4 then
+			print(Game.GetPlayers()[1]:GetAbilities()[1]:GetCurrentPhase())
+			script.parent.parent:Destroy()	
 		end
 	end
 end

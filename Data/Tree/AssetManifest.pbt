@@ -134,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8392183034310735024
+  Name: "Hammer"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_icon_Hammer"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -170,15 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6050753979123331717
-  Name: "Barrel"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_icon_Barrel"
-  }
-}
-Assets {
   Id: 6019899755828464859
   Name: "Metal Steel Triangle 02"
   PlatformAssetType: 2
@@ -194,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 4511079686446287718
+  Name: "Fantasy Crate 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Crate_005"
   }
 }
 Assets {

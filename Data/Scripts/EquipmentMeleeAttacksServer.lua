@@ -83,7 +83,7 @@ function OnBeginOverlap(trigger, other)
                 MeleeAttack(other, abilityInfo)
             end
         end
-    end
+    end    
 end
 
 -- nil OnEquipped()
